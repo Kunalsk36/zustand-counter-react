@@ -1,16 +1,52 @@
-# React + Vite
+# Zustand Counter 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, lightweight counter application built with **React**, **Vite**, and **Zustand** for state management. This project serves as a practical demonstration of how to manage global state effortlessly without the boilerplate of Redux.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ➕ **Increment**: Increase the counter value.
+- ➖ **Decrement**: Decrease the counter value (includes a safety check to prevent negative values).
+- 🔄 **Reset**: Reset the counter back to zero.
+- ⚡ **Real-time Updates**: Instant UI updates powered by Zustand's reactive store.
+- 🎨 **Clean UI**: Simple and intuitive interface.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **State Management**: [Zustand](https://zustand-demo.pmnd.rs/)
+- **Styling**: Vanilla CSS
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To get this project up and running locally, follow these steps:
+
+1. **Clone the repository** (if applicable) or download the source code.
+2. **Navigate to the project directory**:
+   ```bash
+   cd Zustand-counter
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+
+## 🚀 Usage
+
+Once the server is running, you can:
+
+- Click **Increase** to add 1 to the count.
+- Click **Decrease** to subtract 1 (count won't go below 0).
+- Click **Reset** to return the count to 0.
+
+## 🧠 Why Zustand?
+
+Zustand is a small, fast, and scalable bearbones state-management solution. It has a comfy API based on hooks, isn't boilerplatey or opinionated, and is great for handling state in React applications where Redux might feel like overkill.
+
+---
+
+Built with ❤️ by KUNAL for learning React State Management.
